@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CC.Jift.DALFactory\CC.Jift.DALFactory.csproj" />
+    <ProjectReference Include="..\CC.Jift.IBLL\CC.Jift.IBLL.csproj" />
+    <ProjectReference Include="..\CC.Jift.IDAL\CC.Jift.IDAL.csproj" />
+    <ProjectReference Include="..\CC.Jift.Model\CC.Jift.Model.csproj" />
+  </ItemGroup>
+
+</Project>
